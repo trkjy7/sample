@@ -13,7 +13,7 @@ print(df.columns)
 # 실제 파일 컬럼명이 다르면 아래 변수명만 맞게 수정
 
 # 3️⃣ 시간대별 평균 혼잡도 계산
-time_congestion = df.groupby("시간대")["혼잡도"].mean().reset_index()
+time_congestion = df.groupby["혼잡도"].mean().reset_index()
 
 # 4️⃣ 전체 평균 혼잡도 선 그래프
 plt.figure(figsize=(10,5))
