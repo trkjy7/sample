@@ -3,8 +3,7 @@ import plotly.express as px
 import matplotlib.pyplot as plt
 
 # 1️⃣ CSV 파일 불러오기
-file_path = "station.csv"
-df = pd.read_csv(file_path, encoding="cp949")  # 또는 euc-kr, utf-8 시도 가능
+df = pd.read_csv("https://raw.githubusercontent.com/trkjy7/sample/main/station.csv.csv", encoding="cp949")
 
 # 2️⃣ 데이터 구조 확인
 print(df.head())
